@@ -1,0 +1,84 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #63a4ff;
+}
+
+footer {
+    text-align: center;
+    margin: 150px;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 10%;
+
+    width: 68%;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: white;
+}
+
+#stokKosong {
+    background-color: #ed4a4a;
+    color: #cdefee;
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px #91ffaf;
+    padding: 5px;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #008252;
+}
+
+td {
+    color: black;
+}
+
+tr {
+    background-color: #b8ffe5;
+}
+
+tr:hover {
+    background-color: #8bfcd3;
+    transition: 0.25s;
+}
+
+.judulContainer {
+    margin: 20px;
+    position: relative;
+}
+
+.gambarWarung {
+    border-radius: 10%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    opacity: 0.75;
+}
+
+.namaWarung {
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    top: 50%;
+    left: 50%;
+    padding: 10px 18px;
+
+    font-size: 24px;
+
+    background-color: rgba(99, 164, 255, 0.7);
+    border-radius: 40%;
+}
